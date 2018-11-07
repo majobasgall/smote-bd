@@ -23,7 +23,7 @@ A generic example to run it could be:
 - ```overPercentage``` Percentage of balancing between classes.
 
 ## Please, cite this software as:
- **M.J. Basgall et al.** _SMOTE-BD: An Exact and Scalable Oversampling Method for Imbalanced Classification in Big Data .....  Coming soon! :)
+ **M.J. Basgall et al.** SMOTE-BD: An Exact and Scalable Oversampling Method for Imbalanced Classification in Big Data .....  **in press**
 
 ## References
 [1] Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: Synthetic Minority Over-sampling Technique. J. Artif. Int. Res., 16(1), 321–357.
