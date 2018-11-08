@@ -47,14 +47,7 @@ object driver {
     if (overPercentage <= 0) {
       System.err.println("The oversampling percentage must be > 0.\nYour value is\t: " + overPercentage)
       System.exit(1)
-    } /*else if (overPercentage == 0) {
-      System.err.println("The selected oversampling percentage doesn't change the current classes.\nYour value is\t: " + overPercentage)
-      System.exit(1)
-    } else if ((overPercentage % 100) != 0) {
-      System.err.println("`overPercentage` must be multiple of 100.\nYour value is\t: " + overPercentage)
-      System.exit(1)
-    }*/
-
+    }
 
     val k = parameters.getOrElse("K", "5").toInt
     val numPartitions = parameters.getOrElse("numPartitions", "20").toInt
